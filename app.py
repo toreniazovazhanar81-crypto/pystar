@@ -46,7 +46,8 @@ st.markdown("""
 <style>
 
 .stApp {
-    background: linear-gradient(135deg, #16213e, #243b55, #141e30);
+     background: linear-gradient(135deg, #16213e, #243b55, #141e30);
+    color: #ffffff;
 }
 
 .block-container {
