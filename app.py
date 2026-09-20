@@ -55,6 +55,13 @@ st.markdown("""
     padding-top: 2rem;
 }
 
+.stApp p,
+.stApp label,
+.stApp span {
+    color: #ffffff !important;
+    font-size: 18px !important;
+}
+
 .hero {
     text-align: center;
     padding: 55px 20px;
