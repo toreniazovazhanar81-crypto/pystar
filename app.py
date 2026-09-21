@@ -290,26 +290,10 @@ if not st.session_state.game_started:
 name = st.session_state.student_name
 grade = st.session_state.grade
 
-st.markdown(
-    f"""
-    <div class="player-card">
-
-        <div style="font-size:32px;">
-        ⭐ PY★STAR
-        </div>
-
-        <div style="font-size:22px;">
-        Қош келдің, <b>{name}</b>!
-        </div>
-
-        <div style="opacity:0.8;">
-        🎓 {grade} • 🚀 Ойын басталды!
-        </div>
-
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+st.markdown("## ⭐ PY★STAR")
+st.write("AI Информатика Ұстазы")
+st.markdown("### 🚀 Қош келдің, болашақ CODE MASTER!")
+st.write("Білімді жина • Миссияларды орында • StarCoin тап • Деңгейіңді көтер!")
 
 # =========================================================
 # 3. СТАТИСТИКА
