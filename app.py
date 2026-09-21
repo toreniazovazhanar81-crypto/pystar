@@ -125,6 +125,83 @@ st.markdown("""
     border: 1px solid #343b4d;
     text-align: center;
 }
+.forest-map {
+    padding: 35px 25px;
+    border-radius: 30px;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(70, 120, 70, 0.45), transparent 25%),
+        radial-gradient(circle at 80% 30%, rgba(40, 100, 60, 0.4), transparent 25%),
+        linear-gradient(135deg, #10251b, #173d29, #0d2418);
+    border: 2px solid #456b4d;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+    text-align: center;
+    overflow: hidden;
+}
+
+.forest-title {
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.forest-subtitle {
+    font-size: 20px;
+    opacity: 0.85;
+    margin-bottom: 35px;
+}
+
+.forest-road {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 25px 10px;
+}
+
+.forest-item {
+    min-width: 135px;
+    padding: 18px 12px;
+    border-radius: 22px;
+    background: rgba(30, 55, 40, 0.95);
+    border: 2px solid #527a59;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    font-size: 18px;
+}
+
+.forest-item.start {
+    border-color: #d4af37;
+}
+
+.forest-item.gate {
+    border-color: #b58cff;
+}
+
+.forest-item.star {
+    border-color: #ffd700;
+    background: rgba(70, 55, 20, 0.95);
+}
+
+.arrow {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.forest-character {
+    margin: 20px auto;
+    padding: 15px;
+    width: 180px;
+    border-radius: 20px;
+    background: rgba(20, 30, 25, 0.9);
+    border: 2px solid #6fa8dc;
+    font-size: 28px;
+}
+
+.forest-footer {
+    margin-top: 20px;
+    font-size: 17px;
+    opacity: 0.9;
+}
 
 </style>
 """, unsafe_allow_html=True)
