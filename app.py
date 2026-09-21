@@ -302,40 +302,92 @@ with col4:
 st.write("")
 
 # =========================================================
-# 4. ОЙЫН ӘЛЕМІ
+# 4. ОЙЫН ӘЛЕМІ — 🌲 СИҚЫРЛЫ ОРМАН
 # =========================================================
 
-st.markdown("## 🗺️ ОЙЫН ӘЛЕМІ")
+st.markdown("## 🌲 СИҚЫРЛЫ ОРМАН")
 
-world1, world2, world3 = st.columns(3)
+st.markdown(
+    """
+    <div class="forest-map">
 
-with world1:
-    st.markdown("""
-    <div class="mission">
-    <h2>🌐 01 — DIGITAL WORLD</h2>
-    <p>Информатика әлеміне алғашқы қадам.</p>
-    <b>Миссиялар: 274+</b>
+        <div class="forest-title">
+            🌲 PY★STAR ADVENTURE 🌲
+        </div>
+
+        <div class="forest-subtitle">
+            Білім орманына қош келдің!
+        </div>
+
+        <div class="forest-road">
+
+            <div class="forest-item start">
+                🚪
+                <br>
+                <b>БАСТАУ</b>
+            </div>
+
+            <div class="arrow">➡️</div>
+
+            <div class="forest-item">
+                🌲
+                <br>
+                <b>ОРМАН</b>
+            </div>
+
+            <div class="arrow">➡️</div>
+
+            <div class="forest-item gate">
+                🔐
+                <br>
+                <b>ҚАУІПСІЗДІК ҚАҚПАСЫ</b>
+                <br>
+                <small>274-миссия</small>
+            </div>
+
+            <div class="arrow">➡️</div>
+
+            <div class="forest-item">
+                💻
+                <br>
+                <b>БІЛІМ БЕКЕТІ</b>
+            </div>
+
+            <div class="arrow">➡️</div>
+
+            <div class="forest-item star">
+                ⭐
+                <br>
+                <b>ЖҰЛДЫЗ ҚАҚПАСЫ</b>
+            </div>
+
+        </div>
+
+        <div class="forest-character">
+            👤
+            <br>
+            <b>СЕНІҢ КЕЙІПКЕРІҢ</b>
+        </div>
+
+        <div class="forest-footer">
+            🪙 StarCoin жина • 🧩 Миссияларды орында • ⭐ Мәреге жет!
+        </div>
+
     </div>
-    """, unsafe_allow_html=True)
+    """,
+    unsafe_allow_html=True
+)
 
-with world2:
-    st.markdown("""
-    <div class="mission">
-    <h2>🐍 02 — PYTHON WORLD</h2>
-    <p>Алгоритмдер мен бағдарламалау.</p>
-    <b>Жақында ашылады</b>
-    </div>
-    """, unsafe_allow_html=True)
+st.write("")
 
-with world3:
-    st.markdown("""
-    <div class="locked">
-    <h2>🤖 03 — AI WORLD</h2>
-    <p>Жасанды интеллект әлемі.</p>
-    🔒 Құлыптаулы
-    </div>
-    """, unsafe_allow_html=True)
-
+if st.button(
+    "🎮 🌲 ОРМАНҒА КІРУ",
+    use_container_width=True
+):
+    st.success(
+        "🌟 Шытырман оқиға басталды! "
+        "Алғашқы қақпаға қарай жүр!"
+    )
 # =========================================================
 # 5. МИССИЯ 274
 # =========================================================
