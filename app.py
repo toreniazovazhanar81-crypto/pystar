@@ -37,6 +37,9 @@ if "mission_275_done" not in st.session_state:
 
 if "test_done" not in st.session_state:
     st.session_state.test_done = False
+    
+if "forest_started" not in st.session_state:
+    st.session_state.forest_started = False
 
 # =========================================================
 # ДИЗАЙН
